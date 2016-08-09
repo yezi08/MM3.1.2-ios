@@ -528,7 +528,7 @@
     "mma.mod_folder.errorwhilegettingfolder": "Error while getting folder data.",
     "mma.mod_assign.addnewattempt": "Add a new attempt",
     "mma.mod_assign.addnewattemptfromprevious": "Add a new attempt based on previous submission",
-    "mma.mod_assign.addsubmission": "Add submission",
+    "mma.mod_assign.addsubmission": "Add/Edit submission",
     "mma.mod_assign.allowsubmissionsfromdate": "Allow submissions from",
     "mma.mod_assign.allowsubmissionsfromdatesummary": "This assignment will accept submissions from <strong>{{$a}}</strong>",
     "mma.mod_assign.allowsubmissionsanddescriptionfromdatesummary": "The assignment details and submission form will be available from <strong>{{$a}}</strong>",
