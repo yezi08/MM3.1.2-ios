@@ -5121,7 +5121,7 @@ angular.module('mm.core')
             page = page || 'Mobile_app';
 // XJTLU change starts, 03/Aug/2016
 //ori:            var docsurl = 'https://docs.moodle.org/en/' + page;
-            var docsurl = 'http://10.7.0.210/course/view.php?id=55' + page;
+            var docsurl = 'http://ice.xjtlu.edu.cn/course/view.php?id=55' + page;
 // XJTLU change end
             if (typeof release != 'undefined') {
                 var version = release.substr(0, 3).replace(".", "");
@@ -37538,7 +37538,7 @@ angular.module('mm.core')
     "wsextservice" : "local_mobile",
     "gcmpn": "847204461162",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://10.7.0.210/"
+    "siteurl": "http://ice.xjtlu.edu.cn/"
 }
 );
 // END: XJTLU ADDITION 03/Aug/2016
