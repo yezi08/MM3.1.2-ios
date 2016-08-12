@@ -24,13 +24,8 @@
                         </summary>
                     </p>
                 </div>
-<!-- START: XJTLU ADDITION 03/Aug/2016 - hide the icons in course list
-original code:               
-		<div class="item tabs tabs-icon-left" ng-show="course._handlers && course._handlers.length">
-END: XJTLU ADDITION 03/Aug/2016
--->
-
-                <div style="display:none" class="item tabs tabs-icon-left" ng-show="course._handlers && course._handlers.length">
+            
+			<div class="item tabs tabs-icon-left" ng-show="course._handlers && course._handlers.length">
                     <a ng-repeat="handler in course._handlers | orderBy:'-priority'" ng-controller="handler.controller" ng-click="action($event, course)" class="tab-item active mm-courses-handler {{class}}" title="{{title | translate}}">
                         <i class="icon {{icon}}"></i> {{title | translate}}
                     </a>

@@ -40,7 +40,8 @@ $dark:                            #444 !default;
 	display:none !important;
 }
 
-.pane .list li a[title=Language], li a[title="Front page"], li a[title="My files"], a[title="Participants"], a[title="Notes"]{
+/** remove li a[title="Front page"], a[title="Participants"],*/
+.pane .list li a[title=Language],  li a[title="My files"],  a[title="Notes"]{
 display:none;
 }
 
